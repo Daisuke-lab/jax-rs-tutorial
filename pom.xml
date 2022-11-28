@@ -12,7 +12,6 @@
         <module>api</module>
         <module>common</module>
         <module>main</module>
-        <module>test</module>
         <module>experiments</module>
     </modules>
 
