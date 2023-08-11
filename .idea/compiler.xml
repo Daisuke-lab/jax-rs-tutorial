@@ -9,10 +9,11 @@
         <module name="main" />
         <module name="api" />
         <module name="common" />
-        <module name="experiments" />
+        <module name="experiment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="experiments" target="11" />
       <module name="test" target="11" />
     </bytecodeTargetLevel>
   </component>

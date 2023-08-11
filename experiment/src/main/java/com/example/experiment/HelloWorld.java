@@ -1,4 +1,4 @@
-package com.example;
+package com.example.experiment;
 
 
 import javax.ws.rs.GET;
@@ -18,10 +18,9 @@ public class HelloWorld {
 
 
     @GET
-    @Path("/json")
-    @Produces({"application/json"})
+    @Path("/ping")
     public String getHelloWorldJSON() {
-        return "{\"result\":\"" + "this is test" + "\"}";
+        return "Hello World";
     }
 }
 

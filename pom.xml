@@ -12,7 +12,7 @@
         <module>api</module>
         <module>common</module>
         <module>main</module>
-        <module>experiments</module>
+        <module>experiment</module>
     </modules>
 
     <properties>

@@ -1,4 +1,5 @@
-package org.example;
+package com.example.api;
+
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -18,10 +19,11 @@ public class HelloWorld {
 
     @GET
     @Path("/json")
-    @Produces({ "application/json" })
+    @Produces({"application/json"})
     public String getHelloWorldJSON() {
-        return "{\"result\":\"" + "hello world" + "\"}";
+        return "{\"result\":\"" + "this is test" + "\"}";
     }
-
-
 }
+
+
+
