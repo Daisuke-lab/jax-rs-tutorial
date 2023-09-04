@@ -1,9 +1,8 @@
-package com.example.api;
+package jp.co.rakutenbank.fes;
 
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
 
 /**
  * A simple REST service which is able to say hello to someone using HelloService Please take a look at the web.xml where JAX-RS
@@ -18,10 +17,9 @@ public class HelloWorld {
 
 
     @GET
-    @Path("/json")
-    @Produces({"application/json"})
+    @Path("/ping")
     public String getHelloWorldJSON() {
-        return "{\"result\":\"" + "this is test" + "\"}";
+        return "Hello World";
     }
 }
 
